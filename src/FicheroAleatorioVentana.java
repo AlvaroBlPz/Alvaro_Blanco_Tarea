@@ -3,12 +3,12 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import javax.swing.JFrame;
 
-public class FicheroAleatorioVentana {
+public class FicheroAleatorioVentana  {
 
 	public static void main(String[] args) throws IOException {
 		
 		JFrame f = new JFrame("DEPARTAMENTOS.");
-		// Nos aseguramos que el fichero exista para evitar posibles errores
+		// Nos aseguramos que el fichero exista para ejvitar posibles errores
 		File fichero = new File("AleatorioDep.dat");
 		RandomAccessFile file;
 		file = new RandomAccessFile(fichero, "rw");	
